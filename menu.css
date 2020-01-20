@@ -1,0 +1,36 @@
+#menu {
+	width: 80vw;
+	margin: auto;
+	text-align: center;
+}
+
+#outer-table {
+	width: 80vw;
+	margin: auto;
+	border: 1px solid;
+}
+
+#outer-table .td-srno {
+	width: 7%;
+}
+
+#outer-table .td-img {
+	width: 23%;
+}
+
+#outer-table .td-name {
+	width: 25%;
+}
+
+#outer-table .td-desc {
+	width: 35%;
+}
+
+#inner-table {
+	width: 90%;
+	margin: auto;
+}
+
+#inner-table td {
+	width: 50%;
+}
