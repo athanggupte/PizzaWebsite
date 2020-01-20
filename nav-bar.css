@@ -1,0 +1,62 @@
+.nav-bar {
+	height: 100%;
+	width: 160px;
+	position: fixed;
+	z-index: 1;
+	top: 32px;
+	left: 0;
+	background-color: rgb(57, 57, 57);
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+@media screen and (max-width: 800px) {
+	.nav-bar {
+		visibility: hidden;
+	}
+}
+
+.nav-bar a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	color: azure;
+	font-size: large;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-variant: small-caps;
+	font-size: larger;
+	font-weight: 700;
+	display: block;
+}
+
+.nav-bar a:hover {
+	background-color: whitesmoke;
+	color: rgb(57, 57, 57);
+}
+
+.nav-bar a:active {
+	background-color: darkgray;
+	color: rgb(57, 57, 57);
+}
+
+.nav-bar button {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	border-width: 0px;
+	background-color: rgb(57, 57, 57);
+	width: 100%;
+	color: azure;
+	font-size: large;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 600;
+	display: block;
+}
+
+.nav-bar button:hover {
+	background-color: whitesmoke;
+	color: rgb(57, 57, 57);
+}
+
+.nav-bar button:active {
+	background-color: darkgray;
+	color: rgb(57, 57, 57);
+}

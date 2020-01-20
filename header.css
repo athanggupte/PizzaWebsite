@@ -1,0 +1,14 @@
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	z-index: 2;
+	display: block;
+	background-color: whitesmoke;
+}
+
+.header h2 {
+	font-size: 32px;
+}
