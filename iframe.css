@@ -1,0 +1,19 @@
+body {
+	overflow: hidden;
+}
+
+@charset "UTF-8";
+.main-frame {
+	margin-top: 48px;
+	margin-left: 160px;
+	width: 100vw;
+	height: 100vh;
+	border: none;
+}
+
+@media screen and (max-width: 800px) {
+	.main-frame {
+		width: 100vw;
+		margin-left: 0;
+	}
+}

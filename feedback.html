@@ -4,80 +4,54 @@
 		<meta charset="UTF-8" content="width=device-width, initial-scale=1.0">
 		<title>Site Feedback</title>
 		<link rel="stylesheet" type="text/css" href="feedback-style.css">
-		<link rel="stylesheet" type="text/css" href="nav-bar.css">
-		<link rel="stylesheet" type="text/css" href="header.css">
-		<link rel="stylesheet" type="text/css" href="footer.css">
 	</head>
 	<body style="background-color: white;">
-		<header>
-			<div class="header">
-				<h2>Feedback</h2>
-			</div>
-		</header>
 		<h2 style="text-align: center;">Feedback</h2>
-		<div id="main-text">
-			<main>
-				<form action="maintenance.html">
-					<table class="fb-table-1">
-						<tr>
-							<td>Name</td><td><input type="text" class="fb-text" placeholder="Name"></td>
-						</tr>
-						<tr>
-							<td>Email</td><td><input type="email" class="fb-text" placeholder="Email"></td>
-						</tr>
-						<tr>
-							<td>Phone</td><td><input type="number" class="fb-text" placeholder="Phone"></td>
-						</tr>
-					</table>
-					<ol class="fb-ques-list">
-						<li class="fb-ques">
-							<p style="text-align: justify;">How would you rate the <strong>overall design</strong> of the website?</p>
-							<input type="radio" name="fb-q1" value="0">Needs Improvement
-							<input type="radio" name="fb-q1" value="1">Satisfactory
-							<input type="radio" name="fb-q1" value="2">Good
-							<input type="radio" name="fb-q1" value="3">Excellent
-						</li>
-						<li class="fb-ques">
-							<p style="text-align: justify;">How do you rate the <strong>structure</strong> of the website?</p>
-							<input type="radio" name="fb-q2" value="0">Needs Improvement
-							<input type="radio" name="fb-q2" value="1">Satisfactory
-							<input type="radio" name="fb-q2" value="2">Good
-							<input type="radio" name="fb-q2" value="3">Excellent
-						</li>
-						<li class="fb-ques">
-							<p style="text-align: justify;">How would you rate the overall design of the website?</p>
-							<input type="radio" name="fb-q3" value="0">Needs Improvement
-							<input type="radio" name="fb-q3" value="1">Satisfactory
-							<input type="radio" name="fb-q3" value="2">Good
-							<input type="radio" name="fb-q3" value="3">Excellent
-						</li>
-						<li class="fb-ques">
-							<p style="text-align: justify;">How would you rate the overall design of the website?</p>
-							<input type="radio" name="fb-q4" value="0">Needs Improvement
-							<input type="radio" name="fb-q4" value="1">Satisfactory
-							<input type="radio" name="fb-q4" value="2">Good
-							<input type="radio" name="fb-q4" value="3">Excellent
-						</li>
-					</ol>
-					<input type="submit" value="Submit" >
-				</form>
-			</main>
-		</div>
-		<div class="nav-bar">
-			<nav>
-				<a href="maintenance.html">Home</a>
-				<a href="maintenance.html">Menu</a>
-				<a href="maintenance.html">Offers</a>
-				<a href="maintenance.html">Contact</a>
-				<a href="maintenance.html">About</a>
-				<a href="maintenance.html">Feedback</a>
-				<a href="maintenance.html">Sitemap</a>
-			</nav>
-		</div>
-		<footer>
-			<div class="footer">
-
-			</div>
-		</footer>
+		<main id="main-text">
+			<form action="maintenance.html">
+				<table class="fb-table-1">
+					<tr>
+						<td>Name</td><td><input type="text" class="fb-text" placeholder="Name"></td>
+					</tr>
+					<tr>
+						<td>Email</td><td><input type="email" class="fb-text" placeholder="Email"></td>
+					</tr>
+					<tr>
+						<td>Phone</td><td><input type="number" class="fb-text" placeholder="Phone"></td>
+					</tr>
+				</table>
+				<ol class="fb-ques-list">
+					<li class="fb-ques">
+						<p style="text-align: justify;">How would you rate the <strong>overall design</strong> of the website?</p>
+						<input type="radio" name="fb-q1" value="0">Needs Improvement
+						<input type="radio" name="fb-q1" value="1">Satisfactory
+						<input type="radio" name="fb-q1" value="2">Good
+						<input type="radio" name="fb-q1" value="3">Excellent
+					</li>
+					<li class="fb-ques">
+						<p style="text-align: justify;">How do you rate the <strong>structure</strong> of the website?</p>
+						<input type="radio" name="fb-q2" value="0">Needs Improvement
+						<input type="radio" name="fb-q2" value="1">Satisfactory
+						<input type="radio" name="fb-q2" value="2">Good
+						<input type="radio" name="fb-q2" value="3">Excellent
+					</li>
+					<li class="fb-ques">
+						<p style="text-align: justify;">How would you rate the overall design of the website?</p>
+						<input type="radio" name="fb-q3" value="0">Needs Improvement
+						<input type="radio" name="fb-q3" value="1">Satisfactory
+						<input type="radio" name="fb-q3" value="2">Good
+						<input type="radio" name="fb-q3" value="3">Excellent
+					</li>
+					<li class="fb-ques">
+						<p style="text-align: justify;">How would you rate the overall design of the website?</p>
+						<input type="radio" name="fb-q4" value="0">Needs Improvement
+						<input type="radio" name="fb-q4" value="1">Satisfactory
+						<input type="radio" name="fb-q4" value="2">Good
+						<input type="radio" name="fb-q4" value="3">Excellent
+					</li>
+				</ol>
+				<input type="submit" id="fb-submit" value="Submit">
+			</form>
+		</main>
 	</body>
 </html>
