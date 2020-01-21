@@ -6,18 +6,26 @@
 		<link rel="stylesheet" type="text/css" href="nav-bar.css">
 		<link rel="stylesheet" type="text/css" href="header.css">
 		<link rel="stylesheet" type="text/css" href="footer.css">
-		<link rel="stylesheet" type="text/css" href="iframe.css">
+		<link rel="stylesheet" type="text/css" href="work-space.css">
+		<script type="text/javascript">
+			var navWidth = document.getElemenById("nav-bar").width;
+			document.getElementByName("main-frame").width = window.innerWidth - navWidth; 
+		</script>
 	</head>
 	<body>
 		<header class="header">
 			<h2><span style="font-size: 34px; font-variant:small-caps; color:rgb(199, 126, 96);">GetMyPizza</span><span style="font-size:24px;">.com</span></h2>
 		</header>
 		
-		<iframe src="feedback.html" name="main-frame" class="main-frame">
-			
-		</iframe>
+		<table id="work-space" cellspacing="0">
+		<tr style="height: 40px;"></tr>
+		<tr>
+			<td id="left-panel"></td>
+			<td id="frame-panel"><iframe src="feedback.html" name="main-frame" id="main-frame"></iframe></td>
+		</tr>
+		</table>
 	
-		<nav class="nav-bar">
+		<nav class="nav-bar" id="nav-bar">
 			<a href="maintenance.html" target="main-frame">Home</a>
 			<a href="maintenance.html" target="main-frame">Menu</a>
 			<a href="maintenance.html" target="main-frame">Offers</a>
