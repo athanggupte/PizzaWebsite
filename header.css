@@ -4,11 +4,11 @@
 	left: 0;
 	text-align: center;
 	width: 100%;
-	height: 38px;
+	height: 42px;
 	z-index: 2;
 	display: block;
 	background-color: whitesmoke;
-	padding-top: 2px;
+	/*padding-top: 2px;*/
 }
 
 .header h2 {

@@ -1,12 +1,15 @@
 .nav-bar {
-	height: 40px;
+	height: 42px;
 	width: 100%;
 	position: fixed;
-	z-index: 1;
-	top: 32px;
+	/*z-index: 1;*/
+	top: 42px;
 	background-color: rgb(57, 57, 57);
-	overflow-x: hidden;
-	padding-top: 20px;
+	overflow: hidden;
+	padding-bottom: 0%;
+	line-height: 42px;
+	/*padding-top: 20px;
+	/*text-align: center;*/
 }
 
 @media screen and (max-width: 800px) {
@@ -16,14 +19,16 @@
 }
 
 .nav-bar a {
-	padding: 6px 8px 6px 16px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 6px 16px 6px 16px;
 	text-decoration: none;
 	color: azure;
-	font-size: large;
+	font-size: 26px;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-variant: small-caps;
 	font-weight: 700;
-	display: block;
+	/*display: ;*/
 }
 
 .nav-bar a:hover {
@@ -36,25 +41,22 @@
 	color: rgb(57, 57, 57);
 }
 
-.nav-bar button {
-	padding: 6px 8px 6px 16px;
-	text-decoration: none;
-	border-width: 0px;
-	background-color: rgb(57, 57, 57);
-	width: 100%;
-	color: azure;
-	font-size: large;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-weight: 600;
-	display: block;
+.communication {
 }
 
-.nav-bar button:hover {
-	background-color: whitesmoke;
+#back-btn {
+	padding: 10px 32px 8px 20px;
+	font-size: 22px;
+	background-color: darkgray;
 	color: rgb(57, 57, 57);
 }
 
-.nav-bar button:active {
+#back-btn:hover {
+	background-color: rgb(57, 57, 57);
+	color: azure;
+}
+
+#back-btn:active {
 	background-color: darkgray;
 	color: rgb(57, 57, 57);
 }
