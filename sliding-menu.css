@@ -1,8 +1,8 @@
-body {
+/*body {
 	margin: 0px;
 	padding: 0px;
-	/*background-color: /*#7151bd#46b477;*/
-}
+	/*background-color: /*#7151bd#46b477;
+}*/
 
 #menu-icon {
 	height: 25px;
@@ -11,6 +11,7 @@ body {
 	top: 80px;
 	right: 50px;
 	transition: all .3s;/* width .3s, transform .4s;*/
+	z-index: 2;
 }
 
 #menu-icon:hover {
@@ -69,6 +70,7 @@ body {
 	top: 0px;
 	left: -300px;
 	transition: all .5s ease-in-out;
+	z-index: 2;
 }
 
 ul {

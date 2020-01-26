@@ -5,12 +5,21 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Gooey Cheese</title>
+	<style >
+		body {
+			width: 100vw;
+			height: 100vh;
+			overflow: hidden;
+			margin: 0px;
+			padding: 0px;
+		}
+	</style>
 	<link rel="stylesheet" type="text/css" href="gooey-cheese.css">
 	<link rel="stylesheet" type="text/css" href="sliding-menu.css"/>
+	<link rel="stylesheet" type="text/css" href="menu-card.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="sliding-menu.js"></script>
-	<script>
-	</script>
+	<script src="menu-card.js"></script>
 </head>
 <body>
 	<div class="container">
@@ -53,5 +62,24 @@
 		</ul>
 		<div id="close">CLOSE</div>
 	</nav>
+	<main>
+		<article class="card">
+			<section class="card-image">
+				<!--img src="img/veg_exotica.jpg" alt="veg_exotica"-->
+			</section>
+			<section class="card-name">
+				<h3>Veg Exotica</h3>
+			</section>
+			<section class="card-details">
+				<p>The best veg pizza out there</p>
+				<div class="qty">
+					<span class="qty-btn" id="minus1">-</span>
+					<span class="qty-num" id="qty1">1</span><span></span>
+					<span class="qty-btn" id="plus1">+</span>
+				</div>
+			</section>
+		</article>
+	</main>
+	<button style="position: absolute; bottom: 50px; top: 50px;" id="add_btn" title="Add a card to the layout">Add Card</button>
 </body>
 </html>
