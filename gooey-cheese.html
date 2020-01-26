@@ -6,12 +6,16 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Gooey Cheese</title>
 	<link rel="stylesheet" type="text/css" href="gooey-cheese.css">
+	<link rel="stylesheet" type="text/css" href="sliding-menu.css"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="sliding-menu.js"></script>
 	<script>
 	</script>
 </head>
 <body>
 	<div class="container">
+		<div class="cheese"></div>
+		<div class="cheese"></div>
 		<div class="cheese"></div>
 		<div class="cheese"></div>
 		<div class="cheese"></div>
@@ -34,5 +38,20 @@
 			</filter>
 		</defs>
 	</svg>
+
+	<div id="menu-icon">
+		<div id="menu-line"></div>
+	</div>
+
+	<nav id="main-menu">
+		<ul>
+			<li>LINK<div class="line"></div></li>
+			<li>LINK<div class="line"></div></li>
+			<li>LINK<div class="line"></div></li>
+			<li>LINK<div class="line"></div></li>
+			<li>LINK<div class="line"></div></li>
+		</ul>
+		<div id="close">CLOSE</div>
+	</nav>
 </body>
 </html>

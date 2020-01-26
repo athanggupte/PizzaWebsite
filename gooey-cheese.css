@@ -63,7 +63,7 @@ body {
 }
 .cheese:nth-of-type(2) {
 	left: 10%;
-	animation-delay: 3s;
+	animation-delay: 10s;
 }
 .cheese:nth-of-type(3) {
 	left: 60%;
@@ -71,7 +71,7 @@ body {
 }
 .cheese:nth-of-type(4) {
 	left: 75%;
-	animation-delay: 7s;
+	animation-delay: 13s;
 }
 .cheese:nth-of-type(5) {
 	left: 95%;
@@ -80,7 +80,16 @@ body {
 .cheese:nth-of-type(6) {
 	left: 85%;
 	animation-delay: 2s;
-}.cheese:nth-of-type(7) {
+}
+.cheese:nth-of-type(7) {
 	left: 25%;
 	animation-delay: 0s;
+}
+.cheese:nth-of-type(8) {
+	left: 5%;
+	animation-delay: 3s;
+}
+.cheese:nth-of-type(9) {
+	left: 45%;
+	animation-delay: 11s;
 }

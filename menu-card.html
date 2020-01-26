@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Menu Card</title>
+	<link rel="stylesheet" type="text/css" href="menu-card.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$("#add_btn").click(function(){
+				$("main").append(
+					"<article class=\"card\"><section class=\"card-image\"></section><section class=\"card-name\"><h3>Veg Exotica</h3></section><section class=\"card-details\"><p>The best veg pizza out there</p></section></article>")
+			})
+		})
+	</script>
+</head>
+<body>
+	<main>
+	<article class="card">
+		<section class="card-image">
+			<!--img src="img/veg_exotica.jpg" alt="veg_exotica"-->
+		</section>
+		<section class="card-name">
+			<h3>Veg Exotica</h3>
+		</section>
+		<section class="card-details">
+			<p>The best veg pizza out there</p>
+			<div class="qty">
+				<span class="qty-btn" id="minus1">-</span>
+				<span class="qty-num" id="qty1">1</span><span></span>
+				<span class="qty-btn" id="plus1">+</span>
+			</div>
+		</section>
+	</article>
+	</main>
+</body>
+</html>
